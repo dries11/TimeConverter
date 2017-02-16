@@ -24,4 +24,8 @@ public enum HoursStandard {
     HoursStandard(String val){this.hour = hour;}
 
     public String getHour(){return this.hour;}
+
+    public void setHour(String hour) {
+        this.hour = hour;
+    }
 }

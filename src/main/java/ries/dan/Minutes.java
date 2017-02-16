@@ -5,15 +5,15 @@ package ries.dan;
  */
 public enum Minutes {
 
-    One("01"),
-    Two("02"),
-    Three("03"),
-    Four("04"),
-    Five("05"),
-    Six("06"),
-    Seven("07"),
-    Eight("08"),
-    Nine("09"),
+    OOne("01"),
+    OTwo("02"),
+    OThree("03"),
+    OFour("04"),
+    OFive("05"),
+    OSix("06"),
+    OSeven("07"),
+    OEight("08"),
+    ONine("09"),
     Ten("10"),
     Eleven("11"),
     Twelve("12"),
@@ -39,4 +39,7 @@ public enum Minutes {
         return this.minutes;
     }
 
+    public void setMinutes(String minutes) {
+        this.minutes = minutes;
+    }
 }
